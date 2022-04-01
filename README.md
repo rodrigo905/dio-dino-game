@@ -1,5 +1,5 @@
 # Dio Dino Game 
-Dino game for Digital Innovation One's lesson, using only JS, HTML and CSS
+Dino game para o Bootcamp da Orbi Web Games, usando HTML, CSS e Javascript.
 
 ![screenshot](example.png?raw=true "screenshot")
 
