@@ -1,5 +1,22 @@
 body {
-  background: #fafafa;
+  background: #1e192c;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.header img{
+  width: 300px;
+  height: 100%;
+}
+
+.header h1 {
+  font-size: 64px;
+  color: #eee;
 }
 
 .dino {
@@ -36,11 +53,12 @@ body {
 
 .background {
   position: absolute;
-  bottom: 0px;
+  margin: 10px;
+  bottom: 200px;
   background-image: url('background.png');
   background-repeat: repeat-x;
   animation: slideright 600s infinite linear;
   -webkit-animation: slideright 600s infinite linear;
-  width: 100%;
+  width: 97%;
   height: 200px;
 }
